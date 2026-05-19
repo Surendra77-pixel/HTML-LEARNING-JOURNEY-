@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            image element and attributes
+        </title>
+    </head>
+    <body>
+        <h1>Image Element and Attributes</h1>
+        <img src="image1.png" alt="Description of image" width="500" height="300">
+        <p>In this example, we have an <code>&lt;img&gt;</code> element with several attributes. The <code>src</code> attribute specifies the path to the image file, which is "image1.png". The <code>alt</code> attribute provides a description of the image for accessibility purposes, which is "Description of image". The <code>width</code> and <code>height</code> attributes specify the dimensions of the image in pixels, which are 500 and 300 respectively.</p>
+        <p>The <code>&lt;img&gt;</code> element is a self-closing element, meaning it does not require an end tag. It is used to embed images in a web page, and the attributes provide additional information about the image, such as its source, description, and dimensions.</p>
+
+<h2>Types of the urls-</h2>
+<p>There are two types of URLs that can be used in the <code>src</code> attribute of the <code>&lt;img&gt;</code> element:
+</p>
+<ul>
+    <li><strong>Absolute URL:</strong> An absolute URL specifies the complete path to the image file, including the protocol (e.g., http:// or https://) and the domain name. For example: <code>src="https://www.example.com/images/image1.png"</code>.</li>
+    <br>
+    <li><strong>Relative URL:</strong> A relative URL specifies the path to the image file relative to the location of the HTML document. For example: <code>src="images/image1.png"</code>. This means that the image file is located in a folder called "images" that is in the same directory as the HTML document.</li>
+
+    <h2>Note:</h2>
+    <p>When using a relative URL, it is important to ensure that the path to the image file is correct and that the image file is located in the specified location. If the image file cannot be found, the browser will display a broken image icon instead of the image.</p>
+
+    <h2>The Width and the height-</h2>
+    <p>The <code>width</code> and <code>height</code> attributes specify the dimensions of the image in pixels. It is important to set these attributes to ensure that the image is displayed at the desired size and that the layout of the web page is not affected by the image's natural dimensions.</p>
+    <p>When using the <code>width</code> and <code>height</code> attributes, it is important to maintain the aspect ratio of the image to prevent distortion. The aspect ratio is the ratio of the width to the height of the image. If you specify only one of the attributes (either width or height), the browser will automatically calculate the other dimension to maintain the aspect ratio.</p>
+    <p>For example, if you specify a width of 500 pixels and do not specify a height, the browser will calculate the height based on the aspect ratio of the image. If the original dimensions of the image are 1000 pixels by 600 pixels, and you specify a width of 500 pixels, the browser will calculate the height as follows:</p>
+<pre><code>Height = (Original Height / Original Width) * Specified Width
+</code></pre>
+</ul>
+
+<h2> alt</h2>
+<p>The <code>alt</code> attribute provides a description of the image for accessibility purposes. This description is used by screen readers to provide information about the image to users who are visually impaired. It is important to provide a meaningful and descriptive value for the <code>alt</code> attribute to ensure that all users can understand the content of the image.</p>
+<p>In addition to accessibility, the <code>alt</code> attribute also serves as  
+a fallback in case the image cannot be loaded. If the image file is missing or cannot be displayed for any reason, the browser will display the text specified in the <code>alt</code> attribute instead of the image. This helps to provide context and information to users even when the image is not available.</p> 
+    </body>
+</html>
