@@ -6,7 +6,7 @@ A comprehensive guide to learning HTML from the basics to styling. This reposito
 
 ## 📚 Overview
 
-This learning journey is divided into three days, each building upon the previous day's concepts. You'll progress from understanding what HTML is, to learning elements and attributes, to formatting text and applying styles.
+This learning journey is divided into three days, each building upon the previous day's concepts. You'll progress from understanding what HTML is, to learning elements and attributes, to formatting text and applying styles.thisbis wn equation 
 
 ---
 
