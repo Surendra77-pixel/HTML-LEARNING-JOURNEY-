@@ -1,4 +1,4 @@
-# HTML Learning Journey
+# HTML Learning Journey.
 
 A comprehensive guide to learning HTML from the basics to styling. This repository contains a structured learning path with hands-on examples covering essential HTML concepts.
 
